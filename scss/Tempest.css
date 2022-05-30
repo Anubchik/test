@@ -1,0 +1,199 @@
+.r4{
+    width: 1350px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    background-color: white;
+}
+
+.pach{
+    width: 675px;
+    height: 300px;
+    z-index: 2;
+}
+
+.demon{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.rimuru{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.vanatis{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.oddiy{
+    width: 200px;
+    height: 200px;
+    z-index: 3;
+}
+
+div:hover .demon{
+    transform: translateX(475px) translateY(-100px);
+    transition: all 1s;
+    z-index: 3;
+}
+
+div:hover .demon2{
+    animation-name: rasm2;
+    animation-duration: 2s;
+    z-index: 3;
+}
+
+div:hover .smertniy{
+    transform: translateX(475px) translateY(100px);
+    transition: all 1s;
+    z-index: 3;
+}
+
+div:hover .smertniy2{
+    animation-name: rasm;
+    animation-duration: 2s;
+    z-index: 3;
+}
+
+div:hover .vanatis{
+    transform: translateX(-475px) translateY(100px);
+    transition: all 1s;
+    z-index: 3;
+}
+
+div:hover .vanatis2{
+    animation-name: rasm2;
+    animation-duration: 2s;
+    z-index: 3;
+}
+
+div:hover .rimuru{
+    transform: translateX(-475px) translateY(-100px);
+    transition: all 1s;
+    z-index: 3;
+}
+
+div:hover .rimuru2{
+    animation-name: rasm;
+    animation-duration: 2s;
+    z-index: 3;
+}
+
+.madara{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    right: -100%;
+    bottom: -100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.uchiha{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    overflow: hidden;
+    z-index: 5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div:active .madara{
+    right: 50%;
+    transform: translateX(50%)translateY(50%);
+    bottom: 50%;
+    z-index: 5;
+    transition: all .2s;
+}
+
+.frend{
+    color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 75%;
+    z-index: 6;
+    padding: 10px;
+    text-align: center;
+}
+
+div:active .frend{
+    color: white;
+}
+
+.power{
+    position: absolute;
+}
+
+div:active .power{}
+
+.anime{
+    position: absolute;
+    font-family: Calibri;
+}
+
+div:hover .anime{
+    color: white;
+    transition: color 1s;
+    z-index: 4;
+    animation-name: mavzu;
+    animation-duration: 2s;
+}
+
+@keyframes mavzu {
+    0%{
+        transform: rotate(0);
+        color: blue;
+    }
+
+    80%{
+        color: blue;
+    }
+
+    100%{
+        transform: rotate(360deg);
+        color: white;
+    }
+}
+
+@keyframes rasm {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rasm2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes madara {
+    0%{
+        transform: skewY(0) scaleX(0);
+    }
+    100%{
+        transform: skewY(30deg) scaleX();
+    }
+}

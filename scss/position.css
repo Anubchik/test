@@ -1,0 +1,88 @@
+body{
+    background-image: url("https://geekymint.com/wp-content/uploads/2020/09/eMnp5F-1-1-1-1600x900-1-1024x576.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ol{
+    color: white;
+    font-size: 18px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: -50%;
+    transform: translateX(-50%);
+}
+
+.mav{
+    font-size: 20px;
+}
+
+.tepa{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.sarlavha{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.81);
+}
+
+a{
+    color: white;
+}
+
+.mav{
+    color: white;
+    margin: 0;
+}
+
+.a2{
+    position: relative;
+    top: 15px;
+}
+
+.reg{
+    font-size: 35px;
+    position: relative;
+    left: 100px;
+    bottom: 20px;
+    background-color: rgba(0, 255, 255, 0.64);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.mavzu{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 10px;
+}
+
+.vn2{
+    width: 800px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 20%;
+    top: 100px;
+}
+
+.reg2{
+    font-size: 35px;
+    background-color: rgba(0, 255, 255, 0.64);
+    text-decoration: none;
+    padding: 5px;
+}
+

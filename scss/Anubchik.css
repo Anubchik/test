@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.termin {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("../images/Rectangle 58.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.termin a {
+  text-decoration: none;
+  background-color: #35AFBF;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+.termin__container {
+  width: 100%;
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.termin__container--fy {
+  height: 7vh;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.termin__container--fy ol {
+  display: flex;
+  justify-content: space-around;
+  width: 700px;
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+}
+.termin__container_-inner {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.termin__container_-inner h1 {
+  font-size: 67px;
+}
+.termin__container_-inner--exe {
+  width: 42%;
+  display: flex;
+  align-items: center;
+}
+.termin__container_-inner--exe img {
+  width: 15px;
+  height: 18px;
+}
+.termin__container_-inner--exe--exe2 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.second {
+  height: 100vh;
+  text-align: center;
+}
+.second a {
+  text-decoration: none;
+  background-color: #35AFBF;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+.second .img {
+  width: 155px;
+  height: 155px;
+}
+.second__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.second__container--fy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.second__container_-exe {
+  width: 350px;
+  object-fit: cover;
+}
+
+.thrid {
+  height: 100vh;
+}
+.thrid .inner {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  overflow: hidden;
+  top: 78%;
+  left: -13%;
+  border-radius: 50%;
+  text-align: center;
+}
+.thrid .inner a {
+  color: black;
+  font-size: 100px;
+  text-decoration: none;
+}
+.thrid__container {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.thrid__container_-item {
+  background-color: coral;
+  border-radius: 25%;
+  position: relative;
+}
+.thrid__container_-item-_exe {
+  background-color: grey;
+  border-radius: 21%;
+  position: relative;
+}
+.thrid__container_-item-_exe--fy {
+  background-color: brown;
+  border-radius: 21%;
+  position: relative;
+}
+
+.four {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.four__container2 {
+  width: 50%;
+  height: 390px;
+  display: flex;
+  justify-content: flex-end;
+}
+.four__container2__item {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.four__container2__item h1 {
+  font-size: 51px;
+}
+.four__container2__item_-inner {
+  width: 125px;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.four__container2__item_-inner a {
+  text-decoration: none;
+}
+.four__container2__item_-inner-_exe {
+  width: 25px;
+  height: 25px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four__container {
+  width: 50%;
+  height: 390px;
+  background-color: #5BA199;
+}
+.four__container-_inner {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/apple-watch-4-640x387-removebg-preview 1 (2).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.four__container-_inner_-exe {
+  background-color: rgba(0, 0, 0, 0.46);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four__container-_inner_-exe--fy {
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.five {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.five__container {
+  width: 691px;
+  height: 243px;
+  border: 3px dotted grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.five__container-_inner {
+  width: 591px;
+  display: flex;
+  justify-content: space-between;
+}
+.five__container-_inner_-exe {
+  width: 200px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.five__container-_inner_-exe img {
+  width: 57px;
+  height: 49px;
+}
+.five__container2 {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px dotted grey;
+}
+.five__container2_-item {
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+.five__container2_-item-_inner {
+  height: 100px;
+}
+.five__container2_-item-_inner--exe {
+  margin: 10px 0;
+}
+.five__container2_-item-_inner1 {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.five__container2_-item-_inner1 ol {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+.five__container2_-item-_inner2 {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.five__container2_-item-_inner2 ol {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+.five__container2_-item-_inner3 {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=Anubchik.css.map */
